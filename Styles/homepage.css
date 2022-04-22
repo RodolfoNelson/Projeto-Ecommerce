@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+}
+.cabecalho{
+    background-color: black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(158, 152, 152));
+    width: 100%;
+}
+#pesquisar{
+    border-radius: 10px;
+    width: 50rem;
+    border: none;
+    padding: 15px;
+    
+    
+    
+}
+.carrinho{
+    width: 79px;
+    border-radius: 30px;
+}
+#botao-procurar{
+    height: 49px;
+    width: 107px;
+    border-radius: 10px;
+    background-color: #ff6500;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    cursor: pointer;
+    
+}
+.img-cabecalho{
+    width: 120px;
+    height: 100px;
+    border-radius: 20px;
+}
